@@ -1,6 +1,7 @@
 const nodemailer = require("nodemailer");
 
 const send = async (req, res) => {
+  console.log(req.body);
   let output = `
     <ul>
       <li>Name: ${req.body.name}</li>
