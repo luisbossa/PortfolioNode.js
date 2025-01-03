@@ -429,8 +429,13 @@ img {
   justify-content: space-between;
   padding: var(--space-twounits);
   border-radius: var(--btnradius);
+  background-color: var(--clr-neutral-light);
   border: 2px solid var(--clr-mate);
   gap: var(--space-unit);
+}
+
+.hero-cta-p {
+  margin-bottom: 8px;
 }
 
 .hero-cta-btn {
@@ -1794,6 +1799,10 @@ textarea::-webkit-scrollbar {
     width: 140px;
     height: 90px;
   }
+
+  .hero-exp {
+    font-size: 3.5rem;
+  }
 }
 
 @media(max-width: 500px) {
@@ -1859,6 +1868,10 @@ textarea::-webkit-scrollbar {
 
   .hero-left-side {
     padding: var(--space-20) var(--space-unit);
+  }
+
+  .hero-exp {
+    font-size: 3.2rem;
   }
 
   .nav_close {
