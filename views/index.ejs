@@ -21,27 +21,41 @@
             </div>
             <% } %>
 
-                <!--NAVBAR DESKTOP / MOBILE-->
+                <!-- NAVBAR DESKTOP / MOBILE -->
                 <header class="navbar">
                     <div class="nav-container">
-                        <a href="#index">
-                            <img width="100" height="50" alt="logo" loading="lazy" src="/images/logo.webp" class="logo">
+                        <a href="#index" aria-label="Ir al inicio">
+                            <img width="100" height="50" alt="Logo del sitio" loading="lazy" src="/images/logo.webp"
+                                class="logo">
                         </a>
-                        <nav class="desktop-nav">
-                            <a href="#about" class="link-desktop-nav">ABOUT</a>
-                            <a href="#projects" class="link-desktop-nav">PROJECTS</a>
-                            <a href="#process" class="link-desktop-nav">PROCESS</a>
-                            <a href="#contact" class="link-desktop-nav">CONTACT</a>
-                            <a href="https://github.com/luisbossa/" target="_blank" class="link-desktop-nav">
-                                <img alt="github" src="/icons/github.webp" class="mobile-github">
-                            </a>
+                        <nav class="desktop-nav" aria-label="Navegación principal">
+                            <ul>
+                                <li>
+                                    <a href="#about" class="link-desktop-nav">ABOUT</a>
+                                </li>
+                                <li>
+                                    <a href="#projects" class="link-desktop-nav">PROJECTS</a>
+                                </li>
+                                <li>
+                                    <a href="#process" class="link-desktop-nav">PROCESS</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="link-desktop-nav">CONTACT</a>
+                                </li>
+                                <li>
+                                    <a href="/dashboard" class="link-desktop-nav" aria-label="Ícono de login">
+                                        <img width="29" height="29" alt="Ícono de logo" src="/images/login.png"
+                                            class="login-icon">
+                                    </a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
-                    <button class="open-menu" id="open-menu">
-                        <img alt="burger menu" src="/icons/burger.webp" class="nav_burger">
-                        <img alt="close icon" src="/icons/close.webp" class="nav_close">
+                    <button class="open-menu" id="open-menu" aria-label="Abrir menú">
+                        <img alt="Menú hamburguesa" src="/icons/burger.webp" class="nav_burger">
+                        <img alt="Cerrar menú" src="/icons/close.webp" class="nav_close">
                     </button>
-                    <nav class="menu-mobile" id="menu-mobile">
+                    <nav class="menu-mobile" id="menu-mobile" aria-label="Menú móvil">
                         <ul class="ul-mobile">
                             <li>
                                 <a href="#about" class="link-mobile-menu">ABOUT</a>
@@ -57,15 +71,16 @@
                             </li>
                         </ul>
                         <div class="mobile-icon-div">
-                            <a href="https://www.linkedin.com/feed/" target="_blank">
-                                <img alt="linkedin" src="/icons/linkedin.webp" class="mobile-linkedin">
+                            <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="Perfil de LinkedIn">
+                                <img alt="Ícono de LinkedIn" src="/icons/linkedin.webp" class="mobile-linkedin">
                             </a>
-                            <a href="https://github.com/luisbossa/" target="_blank">
-                                <img alt="github" src="/icons/github.webp" class="mobile-github">
+                            <a href="https://github.com/luisbossa/" target="_blank" aria-label="Perfil de GitHub">
+                                <img alt="Ícono de GitHub" src="/icons/github.webp" class="mobile-github">
                             </a>
                         </div>
                     </nav>
                 </header>
+
 
                 <!--HEADER HEADING-->
                 <header id="header" class="header-container">
