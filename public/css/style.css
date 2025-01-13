@@ -568,7 +568,7 @@ img {
   width: 35%;
   display: flex;
   justify-content: start;
-  padding: var(--sp-oneandhalfunits);
+  padding: 20px;
   border-radius: var(--btnradius);
   background: var(--clr-dark-gradient);
   gap: var(--sp-unit);
