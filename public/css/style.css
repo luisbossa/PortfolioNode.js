@@ -637,10 +637,10 @@ img {
 }
 
 .about-heading {
-  width: 35%;
+  width: 38%;
   height: 100%;
   font-weight: 900;
-  font-size: 4.2vw;
+  font-size: 4.5vw;
   background: var(--clr-dark-gradient);
   background-clip: text;
   -webkit-text-fill-color: transparent;
