@@ -18,14 +18,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Mostrar el contenido en otra área si es necesario (en una página de visualización)
-  const contentArea = document.getElementById("contentArea");
+  /*const contentArea = document.getElementById("contentArea");
   if (contentArea) {
     if (savedContent) {
       contentArea.innerHTML = savedContent;
     } else {
       contentArea.innerHTML = "<p>No hay contenido disponible</p>";
     }
-  }
+  }*/
 });
 
 document.addEventListener("DOMContentLoaded", () => {
