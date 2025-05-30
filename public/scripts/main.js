@@ -37,12 +37,13 @@ document.querySelectorAll(".exp-trigger").forEach((trigger) => {
   });
 });
 
-/*----------------- HOVER VIDEO 1, 2, 3 ----------------*/
+/*----------------- HOVER VIDEO 1, 2, 3 ... ----------------*/
 
 const videos = [
   { videoId: "video1", containerClass: ".video-container1" },
   { videoId: "video2", containerClass: ".video-container2" },
   { videoId: "video3", containerClass: ".video-container3" },
+  { videoId: "video4", containerClass: ".video-container4" },
 ];
 
 videos.forEach(({ videoId, containerClass }) => {

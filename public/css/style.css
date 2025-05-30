@@ -2154,17 +2154,19 @@ textarea::-webkit-scrollbar {
 
 .video-container1,
 .video-container2,
-.video-container3 {
+.video-container3,
+.video-container4 {
   position: relative;
   width: 40%;
   height: auto;
   border-top-left-radius: 8px;
-  border-bottom-right-radius: 30px;
+  border-bottom-right-radius: 15px;
   overflow: hidden;
   cursor: pointer;
 }
 
-.video-container1 {
+.video-container1,
+.video-container4 {
   animation: levitate1 3.5s ease-in-out infinite;
 }
 
